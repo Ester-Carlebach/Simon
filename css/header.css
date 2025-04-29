@@ -1,0 +1,32 @@
+/* עיצוב כללי */
+*{
+    font-family: 'Righteous', cursive;
+}
+/* עיצוב בתפריט כולו */
+header {
+    margin-top: 3px;
+    display: flex;
+    font-size: 40px;
+    justify-content: space-between;
+    width:45%;
+
+}
+/* עיצוב כל ניתוב בצבע שונה */
+nav:nth-child(1) {
+    color: red
+}
+
+nav:nth-child(2) {
+    color: rgb(0, 255, 34)
+}
+
+nav:nth-child(3) {
+    color: rgb(238, 234, 29)
+}
+nav:nth-child(4) {
+    color: rgb(54, 5, 177)
+}
+/* עיצוב בעת מעבר על הניתובים */
+nav:hover {
+    background-color: #3b3434;
+}

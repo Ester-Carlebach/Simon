@@ -1,0 +1,46 @@
+
+/* העמוד הכללי */
+body {
+    font-family: 'Righteous', cursive;
+    color: white;
+    background-color: #000019;
+    width: 90%;
+    margin: auto;
+  }
+
+  /* מס הנקודות והשיא */
+  header {
+    font-size: 2em;
+    width: 80%;
+    margin: auto;
+  }
+
+  /*game over כיתןב ה */
+  #pulse {
+    text-align: center;
+    font-size: 8em;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#FFD700, #DC143C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: pulsate 2.5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+     opacity: 0.0;
+  }
+  /*new game כפתור  */
+  #nav {
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 20%; 
+  }
+ /*new game כשעוברים על  */
+  #ng:hover {
+   color: rgb(190, 148, 32);
+ }
+  
+  @-webkit-keyframes pulsate {
+      0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+      50% {opacity: 1.0;}
+      100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+  }
+  

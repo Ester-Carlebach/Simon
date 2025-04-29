@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/game.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+
+<body onload="load()" onkeydown="key()" onkeypress="num()">
+    <!-- תפריט ראשי -->
+    <header>
+        <nav onclick="openGame()">Game|</nav>
+        <nav onclick="openInstruction()"> Instruction|</nav>
+        <nav onclick="openRecords()">Winners|</nav>
+        <nav onclick="openDisconnection()"> Sign out</nav>
+    </header>
+    <div id="sum"><span id="sc">SCORE:0</span><br><span id="player"></span> <br></div>
+    <div class="container">
+        <h1 id="simon">SIMON</h1><span id="next"></span>
+        <div class="simon">
+            <section id="red" class="pad" onclick="put()"><h3>1</h3></section>
+            <section id="green" class="pad" onclick="put()"><h3>2</h3></section>
+            <section id="yellow" class="pad" onclick="put()"><h3>3</h3></section>
+            <section id="blue" class="pad" onclick="put()"><h3>4</h3></section>
+            <button class="display" id="display" onclick=" start()"><b>START</b>
+                <p>0/0</p>
+            </button>
+        </div>
+        <audio id="click"></audio>
+        <audio src="../sounds/error.mp3" id="error"></audio>
+
+    </div>​
+    <script src="../js/game.js"></script>
+    <script src="../js/header.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+/* עיצוב הדף */
+body{
+    background-color: grey;
+}
+/* עיצוב התמונה */
+.img{
+    width: 50%;
+    height: 90vh;
+    position: fixed;
+    z-index: 99;
+    margin: 0;
+}
+  
+/* .img {
+    position:absolute;
+    left:calc(-20vw + 50vw);
+    top:calc(-22vw + 50vh);
+    animation:rotate 6s linear infinite;
+  }
+  
+  @keyframes rotate
+  {
+    0% {transform:rotate(0)}
+    100% {transform:rotate(180deg)}
+  } */
+  
+/* עיצוב הדיב העוטף את התמונה */
+#i{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* עיצוב כיתוב המנצח */
+#name{
+    font-size: 40px;
+    margin-top:120px;
+    margin-left:2px;
+    z-index: 100;
+    position:fixed;
+
+}
+/* עיצוב כיתוב מס הנקודות */
+#point{
+    position: fixed;
+    margin-top:160px;
+    z-index:200;
+    font-size: 40px;
+    margin-left:-20px;
+}
+#myDate{
+    z-index:100;
+    margin-top:210px;
+    font-size:30px;
+    position:fixed;
+}

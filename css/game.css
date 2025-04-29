@@ -1,0 +1,168 @@
+/* עיצוב העמוד */
+body {
+ font-family: 'Righteous', cursive;
+ padding: 0;
+ margin: 0;
+ background-color: #666;
+}
+/* סך הנקודות */
+#sum{
+    font-size: 50px;
+    padding: 8px;
+    /* text-align:left; */
+    float: left;
+    color: white;
+}
+/* הדיב הכולל */
+.container {
+    width: 420px;
+    margin: 0 auto;
+
+    
+}
+/* הכותרת */
+h1{
+    color:white;
+    text-align: center; 
+    font-size: 80px;
+    padding: .2em 0 0 0;
+    margin: 0;
+    margin-bottom:10px;
+    text-align: unset;
+}
+h3{
+    padding: 42px;
+}
+/* .num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* כפתור אדום */
+#red {
+    left:15px;
+    top:15px;
+    background:rgb(255,0,0);
+    border-radius:320px 20px 20px;
+    
+}
+/* כפתור ירוק */
+#green {
+    right:15px;
+    top:15px;
+    background:rgb(0,255,0);
+    border-radius:20px 320px 20px 20px;
+}
+/* כפתור צהוב */
+#yellow {
+    bottom:15px;
+    right:15px;
+    background:rgb(255,255,0);
+    border-radius:20px 20px 320px 20px;
+}
+/* כפתור כחול */
+#blue {
+    bottom:15px;
+    left:15px;
+    background:rgb(0,0,255);
+    border-radius:20px 20px 20px 320px;
+}
+/* הסיימון*/
+.simon {
+    margin-top:20px;
+    position:relative;
+    border-radius:50%;
+    width:440px;
+    height:440px;
+    background:#000;
+    background:rgb(0,0,0);
+    cursor: pointer;
+    right:40px;
+}
+.simon::before {
+    
+    content:' ';
+    left:50%;
+    top:50%;
+    border-radius:85px;
+    position:absolute;
+     width:170px;
+    height:170px;
+    background:#000;
+    z-index:99;
+    margin:-85px;
+}
+/*start עיגול ה */
+.simon .display {
+    
+    font-size: 17px;
+    line-height: 180%;
+    position:absolute;
+    background:rgb(255,255,255);
+    width:130px;
+    padding-top:40px;
+    height:130px;
+    border-radius:60px;
+    left:50%;
+    top:50%;
+    text-align:center;
+    z-index:100;
+    margin:-65px;
+}
+/* עיצוב כללי של הכפתורים */
+.pad {
+    position:absolute;
+    width:200px;
+    height:200px;
+    background:rgba(20,20,20,1);
+    opacity:0.8;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+/* כפתור אדום דלוק */
+.active_0{
+    position:absolute;
+    width:200px;
+    height:200px;
+    background:rgba(20,20,20,1);
+    opacity: 1;
+    box-shadow:-8px -13px 20px 12px rgb(255,25,60);
+    color:rgb(255,25,60);
+}
+/* כפתור ירוק דלוק */
+.active_1{
+    position:absolute;
+    width:200px;
+    height:200px;
+    background:rgba(20,20,20,1);
+    opacity: 1;
+    box-shadow:-8px -13px 20px 12px rgb(25,255,29);
+    color: rgb(25,255,29);
+}
+/* כפתור צהוב דלוק */
+ .active_2{
+    position:absolute;
+    width:200px;
+    height:200px;
+    background:rgba(20,20,20,1);
+    opacity: 1;
+    box-shadow:-8px -13px 20px 12px rgb(224, 255, 25);
+    color: rgb(224, 255, 25);
+}
+  /* כפתור כחול דלוק */
+.active_3{
+    position:absolute;
+    width:200px;
+    height:200px;
+    background:rgba(20,20,20,1);
+    opacity: 1;
+    box-shadow:-8px -13px 20px 12px rgb(75, 25, 255);
+    color:  rgb(75, 25, 255);
+}
+#next{
+    height: 25px;
+    width: 100%;
+    font-size:xx-large;
+}
+

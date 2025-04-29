@@ -1,0 +1,55 @@
+/* עיצוב כללי */
+*{
+  text-align: center;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+  }
+  
+
+  .prize{
+    color:rgb(0, 0, 0);
+    position:absolute;
+    width:100vw;
+    height:100vw;
+    left:calc(-50vw + 50vw);
+    top:calc(-50vw + 50vh);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:100px;
+    font-weight:bold;
+    animation:prize 1s linear infinite;
+    text-shadow:0.1vw 0.1vw 0.1vw #333;
+    font-family:'Righteous', cursive ;
+
+  }
+  
+  @keyframes prize
+  {
+    0% {transform:rotate(0) scale(1)}
+    50% {transform:rotate(0) scale(1.2)}
+    100% {transform:rotate(0) scale(1)}
+  }
+  
+  .jackpot_bg {
+    position:absolute;
+    width:100vw;
+    height:100vw;
+    left:calc(-50vw + 50vw);
+    top:calc(-50vw + 50vh);
+    background:radial-gradient(transparent,transparent,white,white),conic-gradient(rgb(0, 8, 255),rgb(0, 255, 110),rgb(220, 200, 24),red,rgb(0, 8, 255),rgb(0, 255, 110),rgb(220, 200, 24),red,rgb(0, 8, 255),rgb(0, 255, 110),rgb(220, 200, 24),red,rgb(0, 8, 255),rgb(0, 255, 110),rgb(220, 200, 24),red);
+    animation:rotate 6s linear infinite;
+  }
+  
+  @keyframes rotate
+  {
+    0% {transform:rotate(0)}
+    100% {transform:rotate(360deg)}
+  }
+  
+  #bb{width: 150px;}
