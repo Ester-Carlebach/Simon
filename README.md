@@ -1,10 +1,10 @@
-# 🟢 Simon Game – Interactive Memory Game
+#  Simon Game – Interactive Memory Game
 
 **Simon Game** is a classic memory game where the player must repeat a sequence of lights and sounds shown by the game. Each round adds a new color to the sequence, making the challenge increasingly difficult.
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **HTML** – Structure of the page  
 - **CSS** – Styling of the user interface  
@@ -12,7 +12,7 @@
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 1. Download the project files.  
 2. Open the `index.html` file in a modern web browser (Chrome, Firefox, Safari, etc.).  
@@ -20,7 +20,7 @@
 
 ---
 
-## ✨ Game Features
+##  Game Features
 
 - Light and sound-based memory challenge  
 - Increasing difficulty with longer sequences  
